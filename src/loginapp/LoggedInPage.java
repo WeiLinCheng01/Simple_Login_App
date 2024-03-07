@@ -9,10 +9,6 @@ public class LoggedInPage extends javax.swing.JFrame {
     private final String namelb;
     private final int authority;
 
-    /**
-     * Creates new form LoggedInPage
-     * @param loggedUser
-     */
     public LoggedInPage(String loggedUser) {
         HandlingInput HI = new HandlingInput();
         userlb = loggedUser;

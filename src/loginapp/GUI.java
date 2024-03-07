@@ -1,10 +1,5 @@
 package loginapp;
 
-import java.io.FileOutputStream;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
-
-
 public class GUI extends javax.swing.JFrame {
 
     public GUI() {
