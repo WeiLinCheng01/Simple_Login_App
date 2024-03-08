@@ -4,12 +4,9 @@ import java.sql.*;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.nio.charset.StandardCharsets;
-import java.util.Locale;
-
      
 public class HandlingInput{
-    
-    public Locale chlocale = new Locale("zh");
+
     private String[] opsType = new String[]{"password", "username", "name", "role", "authority"};
     
     Boolean HandlingInput(String UID, String PWID, int operation) {
@@ -28,8 +25,6 @@ public class HandlingInput{
             return "Cannot be found";
         }
     }
-
-
     
 //    Method to hash Password
     private byte[] getSHA(String input) throws NoSuchAlgorithmException  
